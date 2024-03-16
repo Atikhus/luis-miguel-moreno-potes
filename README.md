@@ -1,6 +1,7 @@
 //# luis-miguel-moreno-potes
+
 //parcial del estudiante luis miguel moreno potes
-//programado por luis miguel moreno potes
+//programado por luis miguel moreno potes y Diego Rivera
 public class Libro {
     protected String titulo;
     protected String autor;
@@ -144,7 +145,7 @@ public class main {
         Libro libro1 = new Libro(null, null, null, 0);
         libro1.setTitulo(" Griffonia ");
         libro1.setAutor("Michael Peinkofer ");
-        libro1.setPropietario(" luis");
+        libro1.setPropietario(" luis miguel y diego Rivera");
         libro1.setPrecio(45000);
         libro1.imprimir();
 
@@ -153,7 +154,7 @@ public class main {
         LibrosDeTexto libro2 = new LibrosDeTexto(null, null, null, 0, null);
         libro2.setTitulo(" dragon ball ");
         libro2.setAutor("akira toriyama ");
-        libro2.setPropietario(" luis");
+        libro2.setPropietario(" luis miguel y diego rivera");
         libro2.setPrecio(56000);
         libro2.setCurso(" A12");
         libro2.ImprimirAqui1();
@@ -162,7 +163,7 @@ public class main {
         LibroDeTextoInstitucion libro3 = new LibroDeTextoInstitucion(null, null, null, 0, null, null);
         libro3.setTitulo(" el caballero de la armadura oxidada ");
         libro3.setAutor(" Robert fisher ");
-        libro3.setPropietario(" miguel");
+        libro3.setPropietario(" luis miguel y diego Rivera");
         libro3.setPrecio(15000);
         libro3.setFacultad("fantastico");
         libro3.imprimirAqui2();
@@ -171,7 +172,7 @@ public class main {
         Novelas libro4 = new Novelas(null, null, null, 0, null, null, null);
         libro4.setTitulo(" naruto ");
         libro4.setAutor(" gideo ");
-        libro4.setPropietario(" don luis");
+        libro4.setPropietario(" luis miguel y diego Rivera");
         libro4.setPrecio(73000);
         libro4.setTiposNovelas(" anime");
         libro4.imprimir();
